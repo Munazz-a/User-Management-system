@@ -57,7 +57,7 @@ nodemon index.js
 ✨ Screenshots
 
 ### Home Page
-![Home](screenshots/home.png)
+![home png](https://github.com/user-attachments/assets/577e6352-d2b4-42f4-bfef-cf685e75c482)
 
 ### Add User Page
 ![Add User](screenshots/addUser.png)
