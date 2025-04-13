@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="border-b py-3">
+        <div class="container mx-auto flex justify-between items-center max-w-5xl px-4">
+            <a href="/" class="font-semibold">User management</a>
+            <a href="/add" class="font-sm hover:text-blue-600">Add user</a>
+        </div>
+    </div>
+
+    <div class="mt-44 max-w-sm mx-auto">
+        
+        <h1 class="font-bold text-xl flex items-center justify-center">Add User</h1>
+        <p class="text-sm text-neutral-600 flex items-center justify-center">Enter the username to add a new user.</p>
+        <p class="text-sm text-neutral-600 flex items-center justify-center">If already exists,choose a different username or Sign up.</p>
+
+
+        <form action="/save-user" method="POST">
+            <input type="text" name="name" placeholder="Enter username" required class="border p-2 mt-3 w-full"><br>
+            <input type="email" name="email" placeholder="Enter email" required class="border p-2 mt-3 w-full"><br>
+            <input type="text" name="img" placeholder="Enter profile url" required class="border p-2 mt-3 w-full"><br>
+            <button type="submit" class="bg-black text-white p-2 mt-3">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
