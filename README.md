@@ -54,20 +54,6 @@ npm install express ejs nodemon
 nodemon index.js
 
 
-✨ Screenshots
-
-### Home Page
-![Image](https://github.com/user-attachments/assets/ee5caef8-3018-4c50-8963-fdc083d290fa)
-
-### Add User Page
-![Add User](screenshots/addUser.png)
-
-### Manage User Page
-![Edit User](screenshots/userManage.png)
-
-### Edit User Page
-![Edit User](screenshots/editUser.png)
-
 
 🧩 Future Improvements
 Add input validation
