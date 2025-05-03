@@ -36,6 +36,20 @@ user-management/
 
 
 
+## ✨ Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Add User Page
+![Add User Page](screenshots/addUser.png)
+
+### Manage User Page
+![Manage User Page](screenshots/userManage.png)
+
+### Edit User Page
+![Edit User Page](screenshots/editUser.png)
+
 ---
 
 ## ⚙️ Installation & Setup
@@ -44,7 +58,7 @@ user-management/
 # 1. Clone the repository
 git clone https://github.com/Munazz-a/User-management-system.git
 
-# 2. Navigate to project directory
+# 2. Navigate to the project directory
 cd user-management
 
 # 3. Install dependencies
@@ -58,7 +72,7 @@ nodemon index.js
 🧩 Future Improvements
 Add input validation
 
-Connect to MongoDB for persistent storage
+Connect to Mongodb for persistent storage
 
 Add user authentication and login
 
